@@ -4,16 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Women TechMakers Buea </title>
-  
+
+    <link rel="stylesheet" type="text/css" href="assets/ninja/ninja-slider.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
   <!-- Main Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  
+
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-  
+
   <!--Fonts-->
   <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
 
@@ -30,7 +31,52 @@
               <![endif]-->
 </head>
 <body>
-	 
+
+<div style="display:none;">
+    <div id="ninja-slider">
+        <div class="slider-inner">
+            <ul>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic1.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic2.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 2</h3>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="ns-img" style="background-image:url(assets/img/work/pic/pic7.jpg);"></span>
+                    <div class="caption">
+                        <h3>Dummy Caption 3</h3>
+                        <p>Duis fringilla arcu convallis urna commodo, et tempus velit posuere.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="/"><img class="ns-img" src="assets/img/work/pic/pic3.jpg" /></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 4</h3>
+                        <p>Quisque semper dolor sed neque consequat scelerisque at sed ex. Nam gravida massa.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic4.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 5</h3>
+                        <p>Proin non dui at metus suscipit bibendum.</p>
+                    </div>
+                </li>
+            </ul>
+            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+        </div>
+    </div>
+</div>
+
   <!-- Header Section Start -->
   <div id="header">
     <div class="container">
@@ -38,12 +84,12 @@
         <div class="logo-menu">
           <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
             <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
-          </div> 
+          </div>
           <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
             <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
               <span>menu</span>
-            </div> 
-          </div> 
+            </div>
+          </div>
         </div>
         <div class="sidebar-nav">
           <!-- navigation start -->
@@ -58,7 +104,7 @@
             </ul>
           </div>
           <!-- navigation End -->
-        </div>     
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -117,7 +163,7 @@
           </div>
           <div class="browse-box">
             <div class="more">
-              <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+              <a  onclick="lightbox(0)" href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
             </div>
           </div>
         </div>
@@ -204,13 +250,14 @@
   </section>
   <!-- Testimonial Section End -->
 
+
   <!-- Partners Section Start -->
   <section id="clients">
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Partners</span></h1>
         <div id="clients-carousel" class="owl-carousel owl-theme">
-          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+          <div class="item wow fadeInLeft animated " data-wow-delay=".9s">
             <a href="#"><img src="assets/img/clients/img1.png" alt=""></a>
           </div>
           <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
@@ -372,7 +419,7 @@
               <li><i class="fa fa-skype"></i> musa.xyz</li>
               <li><i class="fa fa-envelope-o"></i> musaxyz@gmail.com</li>
             </ul>
-          
+
           <h2>Follow Me</h2>
             <ul class="social-icon">
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -412,6 +459,8 @@
 
   <!-- jQuery Load -->
   <script src="assets/js/jquery-min.js"></script>
+
+<script src="assets/ninja/ninja-slider.js"></script>
   <!-- Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- WOW JS plugin for animation -->
@@ -432,6 +481,6 @@
   <script src="assets/js/owl.carousel.js"></script>
   <!-- lightbox -->
   <script src="assets/js/lightbox.min.js"></script>
-
+    <!--ninja slider-->
 </body>
 </html>
