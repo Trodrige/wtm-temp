@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WTM</title>
 
+  <title>Women TechMakers Buea </title>
+
+    <link rel="stylesheet" type="text/css" href="assets/ninja/ninja-slider.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
@@ -31,6 +34,50 @@
 </head>
 <body>
 
+<div style="display:none;">
+    <div id="ninja-slider">
+        <div class="slider-inner">
+            <ul>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic1.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic2.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 2</h3>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="ns-img" style="background-image:url(assets/img/work/pic/pic7.jpg);"></span>
+                    <div class="caption">
+                        <h3>Dummy Caption 3</h3>
+                        <p>Duis fringilla arcu convallis urna commodo, et tempus velit posuere.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="/"><img class="ns-img" src="assets/img/work/pic/pic3.jpg" /></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 4</h3>
+                        <p>Quisque semper dolor sed neque consequat scelerisque at sed ex. Nam gravida massa.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic4.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 5</h3>
+                        <p>Proin non dui at metus suscipit bibendum.</p>
+                    </div>
+                </li>
+            </ul>
+            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+        </div>
+    </div>
+</div>
   <!-- Header Section Start -->
   <div id="header">
     <div class="container">
@@ -57,6 +104,10 @@
               <li><a href="#feedback">Calendar/Events</a></li>
               <li><a href="#blog">Projects</a></li>
               <li><a href="#feedback">Contacts</a></li>
+              <li><a href="#works">Portfolio</a></li>
+              <li><a href="#clients">Partners</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#feedback">Hire/Contact Me</a></li>
             </ul>
           </div>
           <!-- navigation End -->
@@ -67,6 +118,8 @@
           <div class="banner text-center">
             <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Women Tech Makers</h1>
             <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Female Developers</h2>
+            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Frankenstein Shuvo Musa</h1>
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Web developer, WordPressian & GEEK ;)</h2>
             <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
             <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
             <div class="scroll">
@@ -101,6 +154,24 @@
             <img src="assets/img/wtm/wtm4.JPG" alt="">
             <div class="overlay">
                <a href="assets/img/wtm/wtm36.jpg" data-lightbox="img3"><i class="fa fa-search"></i></a>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
+        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
+          <div class="large">
+            <img src="assets/img/work/img1.jpg" alt="">
+            <div class="overlay">
+              <a href="assets/img/work/img1.jpg" data-lightbox="img1"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="assets/img/work/img2.jpg" alt="">
+            <div class="overlay">
+               <a href="assets/img/work/img2.jpg" data-lightbox="img2"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="assets/img/work/img3.jpg" alt="">
+            <div class="overlay">
+               <a href="assets/img/work/img3.jpg" data-lightbox="img3"><i class="fa fa-search"></i></a>
             </div>
           </div>
         </div>
@@ -115,11 +186,21 @@
             <img src="assets/img/wtm/wtm11.JPG" alt="">
             <div class="overlay">
                <a href="assets/img/wtm/wtm32.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
+            <img src="assets/img/work/img4.jpg" alt="">
+            <div class="overlay">
+               <a href="assets/img/work/img4.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="grid-box">
+            <img src="assets/img/work/img5.jpg" alt="">
+            <div class="overlay">
+               <a href="assets/img/work/img5.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="browse-box">
             <div class="more">
               <a href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+              <a  onclick="lightbox(0)" href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
             </div>
           </div>
         </div>
@@ -132,7 +213,8 @@
   <section id="testimonial">
     <div class="container">
       <div class="row">
-        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">About</h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">About</h1>==
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">What My<br>Client <br><span>Says</span></h1>
         <div id="testimonial-carousel" class="carousel slide wow fadeInUp animated" data-ride="carousel" data-wow-delay="1.2s">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -217,7 +299,7 @@
                 <a href="http://www.gdgbuea.org/"><img src="assets/img/gdgbuea.png" alt=""></a>
             </div> -->
               <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" style="width:150px; padding-top:30px"></a>    
+                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" style="width:150px; padding-top:30px"></a>
                     <span><b><h3>Univ. of Buea</h3></b></span>
               </div>
               <span style="float:right;">
@@ -245,11 +327,45 @@
   </section>
   <!-- Clients Section End -->
 
+  <!-- Partners Section Start -->
+  <section id="clients">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Valuable <br><span>Partners</span></h1>
+        <div id="clients-carousel" class="owl-carousel owl-theme">
+          <div class="item wow fadeInLeft animated " data-wow-delay=".9s">
+            <a href="#"><img src="assets/img/clients/img1.png" alt=""></a>
+          </div>
+          <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+            <a href="#"><img src="assets/img/clients/img2.png" alt=""></a>
+          </div>
+          <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+            <a href="#"><img src="assets/img/clients/img3.png" alt=""></a>
+          </div>
+          <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+            <a href="#"><img src="assets/img/clients/img4.png" alt=""></a>
+          </div>
+          <div class="item wow fadeIn animated">
+            <a href="#"><img src="assets/img/clients/img5.png" alt=""></a>
+          </div>
+          <div class="item wow fadeIn animated">
+            <a href="#"><img src="assets/img/clients/img6.png" alt=""></a>
+          </div>
+          <div class="item wow fadeIn animated">
+            <a href="#"><img src="assets/img/clients/img7.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Parners Section End -->bf07
+
   <!-- Skills Section Start -->
   <section id="skills">
     <div class="container">
       <div class="row">
       <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Calendar/Events</h1>
+      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
       <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
         <div class="fact-block">
           <div class="circle one">
@@ -300,6 +416,7 @@
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Projects</h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Homey<br><span>Blog</span></h1>
         <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
           <div class="blog-large wow fadeInLeft animated"  data-wow-delay="1.2s">
             <img src="assets/img/blog/img1.jpg" alt="">
@@ -351,6 +468,8 @@
     <div class="container">
       <div class="row">
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Contact</h1>
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s"><span>Hire</span><br>or Contact <br> Me</h1>
+
         <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
           <form action="" name="contact">
             <div class="input-group">
@@ -403,6 +522,7 @@
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
           <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
             <p>Copyright &copy; 2016 GrayGrids | All rights reserved.</p>
+            <p>Copyright &copy; 2014 GrayGrids | All rights reserved.</p>
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -420,6 +540,8 @@
 
   <!-- jQuery Load -->
   <script src="assets/js/jquery-min.js"></script>
+
+<script src="assets/ninja/ninja-slider.js"></script>f07
   <!-- Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- WOW JS plugin for animation -->
@@ -442,4 +564,7 @@
   <script src="assets/js/lightbox.min.js"></script>
 
 </body>
-</html>
+</html>=
+    <!--ninja slider-->
+</body>
+</html>7
