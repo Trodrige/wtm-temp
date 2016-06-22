@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Women TechMakers</title>
-  
+
+  <link rel="stylesheet" type="text/css" href="assets/ninja/ninja-slider.css">
+
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
   <!-- Main Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  
+
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-  
+  <link rel="stylesheet" type="text/css" href="assets/css/partners.css">
+
   <!--Fonts-->
   <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
 
@@ -30,7 +34,51 @@
               <![endif]-->
 </head>
 <body>
-   
+
+<div style="display:none;">
+    <div id="ninja-slider">
+        <div class="slider-inner">
+            <ul>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic1.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic2.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 2</h3>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="ns-img" style="background-image:url(assets/img/work/pic/pic7.jpg);"></span>
+                    <div class="caption">
+                        <h3>Dummy Caption 3</h3>
+                        <p>Duis fringilla arcu convallis urna commodo, et tempus velit posuere.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="/"><img class="ns-img" src="assets/img/work/pic/pic3.jpg" /></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 4</h3>
+                        <p>Quisque semper dolor sed neque consequat scelerisque at sed ex. Nam gravida massa.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic4.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 5</h3>
+                        <p>Proin non dui at metus suscipit bibendum.</p>
+                    </div>
+                </li>
+            </ul>
+            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+        </div>
+    </div>
+</div>
   <!-- Header Section Start -->
   <div id="header">
     <div class="container">
@@ -51,20 +99,22 @@
             <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
             <ul class="nav navmenu-nav">
               <li class="active"><a href="#header">Home</a></li>
-              <li><a href="#works">Portfolio</a></li>
-              <li><a href="#clients">Clients</a></li>
+              <li><a href="#works">Gallery</a></li>
+              <li><a href="#clients">About</a></li>
+              <li><a href="#blog">Partners</a></li>
+              <li><a href="#feedback">Calendar/Events</a></li>
               <li><a href="#blog">Projects</a></li>
-              <li><a href="#feedback">Hire/Contact Me</a></li>
+              <li><a href="#feedback">Contacts</a></li>
             </ul>
           </div>
           <!-- navigation End -->
-        </div>     
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <div class="banner text-center">
-            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Frankenstein Shuvo Musa</h1>
-            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Web developer, WordPressian & GEEK ;)</h2>
+            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Women Tech Makers</h1>
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Female Developers</h2>
             <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>
             <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
             <div class="scroll">
@@ -101,7 +151,8 @@
                <a href="assets/img/wtm/wtm4.JPG" data-lightbox="img3"><i class="fa fa-search"></i></a>
            </div>
           </div>
-        </div>
+      </div>
+
         <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
           <div class="grid-box large">
             <img src="assets/img/wtm/wtm35.jpg" alt="">
@@ -125,6 +176,7 @@
 </div>
 </section>
   <!-- Gallery Section End  -->
+
   <!-- Testimonial Section Start -->
   <section id="testimonial">
     <div class="container">
@@ -293,6 +345,7 @@
     </div>
   </section>
   <!-- Testimonial Section End -->
+
   <!-- Partners Section Start -->
   <section id="clients">
     <div class="container">
@@ -300,9 +353,6 @@
           <div class="col-sm-8">
             <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Partners</h1>
             <div id="clients-carousel" class="owl-carousel owl-theme">
-            <!--  <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-                <a href="http://www.gdgbuea.org/"><img src="assets/img/gdgbuea.png" alt=""></a>
-            </div> -->
               <div class="item wow fadeInRight animated" data-wow-delay=".9s">
                 <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" id="ub"></a>
                     <span><b><h3>Univ. of Buea</h3></b></span>
@@ -341,6 +391,8 @@
           <h3 class=" wow fadeInLeft animated" data-wow-delay=".9s">You can find our past, present and future events on our calendar.</h3> </br>
       <iframe src="https://calendar.google.com/calendar/embed?title=Women%20Techmakers%20Buea&amp;height=500&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=wtmbuea%40gmail.com&amp;color=%231B887A&amp;ctz=Africa%2FLagos" style="border:solid 1px #777" width="700" height="500" frameborder="0" scrolling="no"></iframe>
       <!--div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Calendar/Events</h1>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
         <div class="fact-block">
           <div class="circle one">
             <div class="count-info">
@@ -439,7 +491,6 @@
   <section id="feedback">
     <div class="container">
       <div class="row">
-
         <h1 style="text-align:center;color:white" data-wow-delay=".6s"><span> Our journey starts here. You have the  chance to join us </span><br> from its inception and become one of the pioneers <br> See the colours for yourself - join team 
         <a href="https://plus.google.com/u/0/+tchuenkamulrich" style="color:white;">"Women Tech Makers"
         </a>
@@ -456,6 +507,47 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://plus.google.com/u/0/+tchuenkamulrich" style="color:white;font-size:50px"><i class="fa fa-google-plus"></i></a>
               <!-- <a href="http://youtube.com/" style="color:white"><i class="fa fa-youtube"></i></a> -->
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Contact</h1>
+
+        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
+          <form action="" name="contact">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" name="name" class="form-control" placeholder="Your name">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+              <input type="email" name="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-fire"></i></span>
+              <input type="text" name="subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-comments"></i></span>
+              <textarea name="message" class="form-control large" placeholder="Massage"></textarea>
+            </div>
+            <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
+          </form>
+        </div>
+        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.4s">
+          <div class="address">
+            <h2>Contact Info</h2>
+            <ul class="contact-info">
+              <li><i class="fa fa-mobile"></i> +88 019788XYZ</li>
+              <li><i class="fa fa-skype"></i> musa.xyz</li>
+              <li><i class="fa fa-envelope-o"></i> musaxyz@gmail.com</li>
+            </ul>
+
+          <h2>Follow Me</h2>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -468,7 +560,7 @@
       <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
           <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
-            <p>Copyright &copy; 2016 GrayGrids | All rights reserved.</p>>
+            <p>Copyright &copy; 2016 GrayGrids | All rights reserved.</p>
           </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -486,6 +578,8 @@
 
   <!-- jQuery Load -->
   <script src="assets/js/jquery-min.js"></script>
+
+<script src="assets/ninja/ninja-slider.js"></script>
   <!-- Bootstrap JS -->
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- WOW JS plugin for animation -->
@@ -507,5 +601,6 @@
   <!-- lightbox -->
   <script src="assets/js/lightbox.min.js"></script>
 
+    <!--ninja slider-->
 </body>
 </html>
