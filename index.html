@@ -14,6 +14,7 @@
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
   <link rel="stylesheet" type="text/css" href="assets/css/partners.css">
+
   <!-- Slider style: Browse all -->
   <link rel="stylesheet" type="text/css" href="assets/ninja/ninja-slider.css">
 
@@ -33,6 +34,53 @@
               <![endif]-->
 </head>
 <body>
+
+<!-- The ninja-slider is implemented below -->
+    <div style="display:none;">
+    <div id="ninja-slider">
+        <div class="slider-inner">
+            <ul>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic1.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic2.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 2</h3>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="ns-img" style="background-image:url(assets/img/work/pic/pic7.jpg);"></span>
+                    <div class="caption">
+                        <h3>Dummy Caption 3</h3>
+                        <p>Duis fringilla arcu convallis urna commodo, et tempus velit posuere.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="/"><img class="ns-img" src="assets/img/work/pic/pic3.jpg" /></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 4</h3>
+                        <p>Quisque semper dolor sed neque consequat scelerisque at sed ex. Nam gravida massa.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="ns-img" href="assets/img/work/pic/pic4.jpg"></a>
+                    <div class="caption">
+                        <h3>Dummy Caption 5</h3>
+                        <p>Proin non dui at metus suscipit bibendum.</p>
+                    </div>
+                </li>
+            </ul>
+            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+        </div>
+    </div>
+</div>
+<!-- ninja ends here -->
 
   <!-- Header Section Start -->
   <div id="header">
@@ -87,19 +135,19 @@
         <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Gallery</span></h1>
         <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
           <div class="large">
-            <img src="assets/img/wtm/wtm6.jpg" alt="">
+            <img src="assets/img/wtm/wtm6.jpg" alt="" class="img-responsive" id="wtm6">
             <div class="overlay">
               <a href="assets/img/wtm/wtm13.JPG" data-lightbox="img1"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/wtm/wtm2.jpg" alt="">
+            <img src="assets/img/wtm/wtm2.jpg" alt="" class="img-responsive" id="wtm2">
             <div class="overlay">
                <a href="assets/img/wtm/wtm8.JPG" data-lightbox="img2"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/wtm/wtm11.JPG" alt="">
+            <img src="assets/img/wtm/wtm11.JPG" alt="" class="img-responsive" id="wtm11" >
             <div class="overlay">
                <a href="assets/img/wtm/wtm4.JPG" data-lightbox="img3"><i class="fa fa-search"></i></a>
            </div>
@@ -107,20 +155,20 @@
         </div>
         <div class="col-md-5 grid-right wow fadeInRight animated" data-wow-delay="1.6s">
           <div class="grid-box large">
-            <img src="assets/img/wtm/wtm35.jpg" alt="">
+            <img src="assets/img/wtm/wtm35.jpg" alt="" class="img-responsive" id="wtm35">
             <div class="overlay">
                <a href="assets/img/wtm/wtm37.jpg" data-lightbox="img4"><i class="fa fa-search"></i></a>
             </div>
           </div>
           <div class="grid-box">
-            <img src="assets/img/wtm/wtm39.jpg" alt="">
+            <img src="assets/img/wtm/wtm39.jpg" alt="" class="img-responsive" id="wtm39">
             <div class="overlay">
                <a href="assets/img/wtm/wtm32.jpg" data-lightbox="img5"><i class="fa fa-search"></i></a>
            </div>
          </div>
               <div class="browse-box">
                 <div class="more">
-                  <a  onclick="lightbox(0)" href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
+                  <a onclick="lightbox(0)" href="#"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
                 </div>
               </div>
         </div>
@@ -128,6 +176,7 @@
 </div>
 </section>
   <!-- Gallery Section End  -->
+
   <!-- Testimonial Section Start -->
   <section id="testimonial">
     <div class="container">
@@ -293,40 +342,37 @@
     </div>
   </section>
   <!-- Testimonial Section End -->
+  
   <!-- Partners Section Start -->
   <section id="clients">
     <div class="container">
       <div class="row">
-          <div class="col-sm-8">
-            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Partners</h1>
-            <div id="clients-carousel" class="owl-carousel owl-theme">
-            <!--  <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-                <a href="http://www.gdgbuea.org/"><img src="assets/img/gdgbuea.png" alt=""></a>
-            </div> -->
+          <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Partners</h1>
+          <div class="col-sm-4">
               <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" id="ub"></a>
-                    <span><b><h3>Univ. of Buea</h3></b></span>
+                  <div></div>
+                <a href="http://www.ubuea.cm/"><img src="assets/img/download.jpg" alt="" id="ub"></a><br><br>
               </div>
-              <span>
-                  <div class="item wow fadeInRight animated" data-wow-delay=".9s">
-                    <a href="http://activspaces.com/"><img src="assets/img/activspaces.png" alt="" id="activSpaces"></a><br><br>
-                        <span><b><h3>ACTIVSPACES</h3></b></span>
+                    <span><b><h3>UNIVERSITY OF BUEA</h3></b></span>
+          </div>
+
+          <div class="col-sm-4">
+              <div class="item wow fadeInRight animated" data-wow-delay=".9s">
+                <a href="http://activspaces.com/"><img src="assets/img/activspaces.png" alt="" id="activSpaces"></a><br><br>
+              </div>
+                  <span><b><h3 style="text-align:center; padding-right:20px">ACTIVSPACES</h3></b></span>
+          </div>
+
+          <div class="col-sm-4">
+              <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-9">
+                      <a href="http://www.gdgbuea.org/"><img src="assets/img/gdg buea logo.png" alt="" id="gdg" class="img-circle"></a><br><br><br>
                   </div>
-              </span>
-            </div>
-        </div>
-
-        <div class="col-sm-4" id="sponsor">
-            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Sponsor</h1>
-            <div id="clients-carousel" class="owl-theme">
-                <div class="item wow fadeInLeft animated" data-wow-delay=".9s">
-                    <a href="http://www.gdgbuea.org/">
-                        <img src="assets/img/gdg buea logo.png" alt="" id="gdg">
-                    </a>
-                </div>
-            </div>
-        </div>
-
+              </div><br><br>
+              <span><b><h3>GOOGLE DEVELOPER GROUP</h3></b></span>
+                    <span><b><h3 style="text-align:center">BUEA</h3></b></span>
+          </div>
       </div>
     </div>
   </section>
@@ -339,8 +385,8 @@
       <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Our  <span>Events</span></h1>
 
           <h3 class=" wow fadeInLeft animated" data-wow-delay=".9s">You can find our past, present and future events on our calendar.</h3> </br>
-      <iframe src="https://calendar.google.com/calendar/embed?title=Women%20Techmakers%20Buea&amp;height=500&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=wtmbuea%40gmail.com&amp;color=%231B887A&amp;ctz=Africa%2FLagos" style="border:solid 1px #777" width="700" height="500" frameborder="0" scrolling="no"></iframe>
-      <!--div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+     <iframe src="https://calendar.google.com/calendar/embed?title=Women%20Techmakers%20Buea&amp;height=500&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=wtmbuea%40gmail.com&amp;color=%231B887A&amp;ctz=Africa%2FLagos" style="border:solid 1px #777" width="700" height="500" frameborder="0" scrolling="no"></iframe>
+      <!-- div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
         <div class="fact-block">
           <div class="circle one">
             <div class="count-info">
